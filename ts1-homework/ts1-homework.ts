@@ -47,7 +47,7 @@ class Party {
 
 //- додати\видалити депутата з фракції
 
-    Deletedeputate = (key) => {
+    Deletedeputate = (key:string) => {
         for (let i = 0; i < this.members.length; i++) {
             if (this.members[i].name === key) {
                 this.members.splice(i, 1);
