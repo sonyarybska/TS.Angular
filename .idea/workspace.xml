@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53997f39-73d4-4f1b-84e7-6e00aed89905" name="Default Changelist" comment="angular">
-      <change afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/comment/models/comments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/models/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular1-practice/src/app/components/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular1-practice/src/app/components/posts/posts.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-posts/user-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/models/post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-details/post-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-comments/post-comments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-details/post-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-comments/post-comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-details/post-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/components/post-comments/post-comments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/post-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/post-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/post/post.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-details/user-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-posts/user-posts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-details/user-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-details/user-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/components/user-posts/user-posts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/user-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/user-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/user.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +41,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1t8EH4ba9yUqh3QuFPNFLlBjbjk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +55,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular2-homework/src/app/components/modules/user/models" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Users\andre\Desktop\okten\TS. Angular\angular1-practice\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Desktop\okten\TS. Angular\angular2-homework\src\app\components\modules\user\models" />
+      <recent name="C:\Users\andre\Desktop\okten\TS. Angular\angular2-homework\src\app\components\modules\user\services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\Desktop\okten\TS. Angular\angular2-homework\src\app\components\modules\comment\components" />
       <recent name="C:\Users\andre\Desktop\okten\TS. Angular\angular2-homework\src\app\components\modules\comment\services" />
@@ -66,7 +84,7 @@
       <updated>1622142224373</updated>
       <workItem from="1622142225545" duration="588000" />
       <workItem from="1622142853750" duration="32958000" />
-      <workItem from="1622835285968" duration="8632000" />
+      <workItem from="1622835285968" duration="14459000" />
     </task>
     <task id="LOCAL-00001" summary="angular">
       <created>1622142248848</created>
@@ -89,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622145045927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="angular">
+      <created>1622893333357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622893333357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +139,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="pr2-3" />
     <MESSAGE value="angular" />
     <option name="LAST_COMMIT_MESSAGE" value="angular" />
   </component>

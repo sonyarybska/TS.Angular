@@ -5,15 +5,15 @@ import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-user-details',
-  templateUrl: './user-details.component.html',
-  styleUrls: ['./user-details.component.css']
+  templateUrl: './user-posts.html',
+  styleUrls: ['./user-posts.css']
 })
-export class UserDetailsComponent implements OnInit {
-fullUser:any;
+export class UserPosts implements OnInit {
+fullPost:any;
   constructor(private http:UserService,private router:ActivatedRoute) {
     this.router.params.subscribe(params=>{
       console.log(params.id);
-      this.http.getUser(params.id).subscribe(value => this.fullUser=value)
+      this.http.getPost(params.id).subscribe(value => this.fullPost=value)
     })
   }
 

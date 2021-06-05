@@ -4,10 +4,10 @@ import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-post-details',
-  templateUrl: './post-details.component.html',
-  styleUrls: ['./post-details.component.css']
+  templateUrl: './post-comments.html',
+  styleUrls: ['./post-comments.css']
 })
-export class PostDetailsComponent implements OnInit {
+export class PostComments implements OnInit {
 fullPost:any;
   constructor(private http:PostService,private router:ActivatedRoute) {
     this.router.params.subscribe(params=>{

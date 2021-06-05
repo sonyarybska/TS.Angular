@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {PostDetailsComponent} from "./components/post-details/post-details.component";
+
 import {PostsComponent} from "./components/posts/posts.component";
+import {PostComments} from "./components/post-comments/post-comments";
 
 const routes: Routes = [
   {path:'',component:PostsComponent,children:[
-      {path:':id',component:PostDetailsComponent}
+      {path:':id',component:PostComments}
     ]
     }
 ];

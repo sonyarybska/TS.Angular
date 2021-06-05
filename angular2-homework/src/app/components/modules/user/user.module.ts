@@ -4,15 +4,15 @@ import { CommonModule } from '@angular/common';
 import { UserRoutingModule } from './user-routing.module';
 import { UsersComponent } from './components/users/users.component';
 import {UserComponent} from "./components/user/user.component";
-import {UserDetailsComponent} from "./components/user-details/user-details.component";
 import {UserService} from "./services/user.service";
+import {UserPosts} from "./components/user-posts/user-posts";
 
 
 @NgModule({
   declarations: [
     UsersComponent,
     UserComponent,
-    UserDetailsComponent
+    UserPosts
   ],
   imports: [
     CommonModule,
