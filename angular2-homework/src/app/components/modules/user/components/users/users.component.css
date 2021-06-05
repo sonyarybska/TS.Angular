@@ -1,0 +1,10 @@
+.users {
+  display: flex;
+  justify-content: space-around;
+}
+.allUsers{
+  width: 700px;
+}
+.details{
+  width: 700px;
+}

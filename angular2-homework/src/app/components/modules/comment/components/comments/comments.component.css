@@ -1,0 +1,7 @@
+.comments{
+  display: flex;
+  justify-content: space-around;
+}
+.allComments{
+  margin: 0 auto;
+}

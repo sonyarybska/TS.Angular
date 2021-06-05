@@ -1,0 +1,10 @@
+.posts{
+  display: flex;
+  justify-content: space-around;
+}
+.allPosts{
+  width: 700px;
+}
+.details{
+  width: 700px;
+}

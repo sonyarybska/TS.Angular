@@ -1,0 +1,23 @@
+.post{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orangered;
+  margin:10px;
+  border: 3px solid black;
+}
+.post p{
+  font-size: 25px;
+  font-weight: 1000;
+  color: yellow;
+}
+button{
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  background-color: yellow;
+}
+button:hover{
+  background-color: black;
+  color: yellow;
+}
